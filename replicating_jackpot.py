@@ -287,8 +287,7 @@ imgs = [
 
 titles = [
     "S1 source",
-    "S2 + main lens",
-    "S2 + both lenses"
+    "S2"
 ]
 
 for ax, img, title in zip(axes, imgs, titles):
