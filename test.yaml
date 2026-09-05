@@ -53,8 +53,8 @@ SPECIES:
                     DISTRIBUTION:
                         NAME: uniform
                         PARAMETERS:
-                            minimum: 16
-                            maximum: 17
+                            minimum: 19
+                            maximum: 20
                 center_x: 0.0
                 center_y: 0.0
                 R_sersic:
@@ -89,7 +89,21 @@ SPECIES:
                 e2: 0.0           # placeholder, overwritten by USERDIST_1
                 center_x: 0.0
                 center_y: 0.0
-
+        MASS_PROFILE_2:
+            NAME: SHEAR
+            PARAMETERS:
+                gamma1:
+                    DISTRIBUTION:
+                        NAME: normal
+                        PARAMETERS:
+                            mean: 0.0
+                            std: 0.025
+                gamma2:
+                    DISTRIBUTION:
+                        NAME: normal
+                        PARAMETERS:
+                            mean: 0.0
+                            std: 0.025
 
     GALAXY_2:
         NAME: SOURCE_1
@@ -100,8 +114,8 @@ SPECIES:
                     DISTRIBUTION:
                         NAME: uniform
                         PARAMETERS:
-                            minimum: 16
-                            maximum: 17
+                            minimum: 19
+                            maximum: 20
                 center_x:
                     DISTRIBUTION:
                         NAME: uniform
